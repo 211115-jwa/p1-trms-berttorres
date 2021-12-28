@@ -7,6 +7,11 @@ import static io.javalin.apibuilder.ApiBuilder.*;
 import com.revature.controllers.RequestsController;
 
 public class TRMSApp {
+	
+	/*******************************************
+	 * 
+	 * @param args
+	 */
 
 	public static void main(String[] args) {
 		Javalin app = Javalin.create().start();
