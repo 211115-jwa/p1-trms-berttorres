@@ -2,6 +2,11 @@ package com.revature.beans;
 
 import java.util.Objects;
 
+/****************************************************************************
+ * 
+ * @author bertt
+ *
+ */
 public class EventType {
 	private int eventId;
 	private String name;
