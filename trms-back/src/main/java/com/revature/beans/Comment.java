@@ -3,6 +3,12 @@ package com.revature.beans;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
+/*************************************************************************
+ * 
+ * @author bertt
+ *
+ */
+
 public class Comment {
 	private int commentId;
 	private Reimbursement request;
