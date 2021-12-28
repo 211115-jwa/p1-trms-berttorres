@@ -2,6 +2,11 @@ package com.revature.beans;
 
 import java.util.Objects;
 
+/*****************************************************************************
+ * 
+ * @author bertt
+ *
+ */
 public class GradingFormat {
 	private int formatId;
 	private String name;
