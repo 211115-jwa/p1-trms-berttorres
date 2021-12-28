@@ -35,4 +35,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
 	  cd trms-back/
+<<<<<<< HEAD
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=211115-jwa_mini-project-berttorres
+=======
+	  mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=211115-jwa_p1-trms-berttorres
+>>>>>>> 8b9c13dd0a7301a53a4df91f17473f4b1db8207d
