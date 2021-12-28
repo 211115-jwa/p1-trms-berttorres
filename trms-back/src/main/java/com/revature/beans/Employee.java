@@ -2,6 +2,12 @@ package com.revature.beans;
 
 import java.util.Objects;
 
+/*************************************************************************
+ * 
+ * 
+ * @author bertt
+ *
+ */
 public class Employee {
 	private int empId;
 	private String firstName;
